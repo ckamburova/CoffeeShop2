@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Nucamp: Sip and Savor</title>
+  </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sip & Savor</h1>
+            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+              <div class="container">
+                <a class="navbar-brand"><img src="Img/365973f2-2c31-4128-a148-d03598594f8d.JPEG" height="60" width="60" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html"><i class="fa-solid fa-info fa-lg"></i>Menut</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text ms-auto">
+                    <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal"> <i class="fa-solid fa-right-to-bracket"></i> Login </a>
+                  </span>
+                </div>
+              </div>
+            </nav>
+        </div> 
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Our Coffee Shop</h2>
+            <div class="container">
+              <section class="row row-content align-items-center">
+                <div class="col-md-8 mx-auto">
+                  <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="Img/Cappuccino.jpg" class="img-fluid" alt="Signature Cappuccino" />
+                        <div class="carousel-caption">
+                          <h3>Signature Cappuccino</h3>
+                          <p class="d-none d-sm-block">Indulge in our Signature Cappuccino, a perfect blend of espresso and frothy milk, topped with a delicate sprinkle of cocoa or cinnamon. Each sip offers a rich, creamy experience that's both comforting and invigorating.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/Latte.jpg" alt="Latte" />
+                        <div class="carousel-caption">
+                          <h3>Latte</h3>
+                          <p class="d-none d-sm-block">Our handcrafted Lattes offer a luxurious fusion of freshly brewed espresso and silky steamed milk. Whether you prefer classic flavors or daring combinations, our expertly crafted Lattes promise a creamy, indulgent treat tailored to your taste.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="img/Coldbrew.jpg" alt="Cold Brew Coffee" />
+                        <div class="carousel-caption">
+                          <h3>Cold Brew Coffee</h3>
+                          <p class="d-none d-sm-block">Savor the refreshing boldness of our Cold Brew Coffee, meticulously brewed for hours to unlock smooth, vibrant flavors. With hints of chocolate and nutty undertones, each sip delivers a crisp, rejuvenating experience perfect for any time of day.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+        </div>
+    </section>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Menu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Coffee</th>
+          <td>Cold Brew</td>
+          <td>Hot Brew</td>
+          <td>Espresso</td>
+        </tr>
+        <tr>
+          <th scope="row">Lattes</th>
+          <td>Vanilla</td>
+          <td>Caramel</td>
+          <td>Custom</td>
+        </tr>
+        <tr>
+          <th scope="row">Cappucinos</th>
+          <td>Vanilla</td>
+          <td>Caramel</td>
+          <td>Custom</td>
+        </tr>
+      </tbody>
+    </table>
+    <section>
+        <section id="featured">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product">
+                </div>
+                <div class="product">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                  <h5>Social</h5>
+                  <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                  <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                  <a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                  <i class="fa-solid fa-phone fa-lg text-primary"></i> Tel: 1-206-240-1441<br />
+                  <i class="fa-solid fa-envelope fa-lg text-primary"></i> Email: sipandsavor@gmail.com
+                </div>
+              </div>
+            </div>
+          </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
